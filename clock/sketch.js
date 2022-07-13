@@ -13,7 +13,7 @@ var hoursRadius;
 var clockDiameter;
 
 function setup() {
-  createCanvas(displayWidth, displayHeight);
+  createCanvas(200, 200);
   //   background("#faf5ec");
   stroke(255);
 
