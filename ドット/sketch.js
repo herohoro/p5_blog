@@ -14,7 +14,7 @@ function preload() {
 // preload()が完了すれば実行される
 // プログラム開始時に1度だけ実行される
 function setup() {
-  createCanvas(displayWidth, displayHeight); // 幅400px, 高さ400px
+  createCanvas(400, 200); // 幅400px, 高さ400px
   frameRate(5); // 30fps
 
   img.loadPixels(); // 画像のピクセルデータを読み込み
